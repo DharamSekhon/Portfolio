@@ -14,6 +14,7 @@ import { SiMysql } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaLink } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
+import { Fullscreen } from "lucide-react";
 
 // import "./app.css";
 
@@ -23,11 +24,11 @@ function App() {
       <section
         id="home"
         className="bg-cover bg-center h-screen"
-        style={{ backgroundImage: 'url("bg1.jpg")' }}
+        style={{ backgroundImage: 'url("bg1.jpg")', width: Fullscreen }}
       >
         <title>My Portfolio</title>
         <Header />
-        <div className="grid md:grid-cols-2 grid-cols-1 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 ">
           <div className="mt-[180px] ml-10">
             <div>
               <div>
@@ -77,7 +78,7 @@ function App() {
         <div className="w-[40%] md:ml-[9rem] ml-[4.5rem] mt-[1rem] md:mt-[5rem]">
           <img
             src="pic.png"
-            className="w-[17rem] md:ml-10 ml-[3.9rem] relative border-2 border-green-400 rounded-full backdrop-filter backdrop-blur-sm"
+            className="w-[17rem] md:ml-6 ml-[3.9rem] relative border-2 border-green-400 rounded-full backdrop-filter backdrop-blur-sm"
           />
           <div className="absolute border-2 rounded-lg text-lg md:text-xl text-center flex flex-col items-center px-[3rem] p-2 border-green-400 backdrop-filter backdrop-blur-sm">
             <h1>Dharampreet Singh Sekhon </h1>
@@ -94,7 +95,7 @@ function App() {
             <h1 className="text-xl md:text-4xl text-green-600 font-semibold w-[50%] md:w-[70%]">
               Transforming visions into exceptional portfolios
             </h1>
-            <p className="text-md md:text-xl mt-3 w-[70%] md:w-full text-justify">
+            <p className="text-md md:text-xl mt-3 w-[55%] md:w-full text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
               unde reprehenderit minus nisi voluptatem soluta perferendis
               eligendi laboriosam, eos, a sed molestiae nemo? Quasi eaque
