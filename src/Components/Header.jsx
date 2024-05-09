@@ -38,7 +38,7 @@ const Header = () => {
     );
   };
   return (
-    <header className="fixed shadow-xl mx-auto px-5 py-3 flex flex-col md:flex-row justify-between items-center top-0 left-0 ml-[2.5rem] md:ml-[9rem] w-[80%] mt-5 rounded-3xl backdrop-blur-2xl backdrop-filter z-10 text-white">
+    <header className="fixed shadow-xl mx-auto px-5 py-3 flex flex-col md:flex-row justify-between items-center top-0 left-0 ml-[2.5rem] md:ml-[9rem] w-auto md:w-[80%] mt-5 rounded-3xl backdrop-blur-2xl backdrop-filter z-10 text-white">
       {/* <header className="fixed top-0 left-0 md:ml-[8rem] ml-0 md:mr-[8rem] mr-0 mt-5 w-[80%] border-2 rounded-3xl border-gray-600 backdrop-blur-lg backdrop-filter z-10"> */}
       {/* <header className="bg-dark-background sticky top-0 z-[20] mx-auto flex w-full items-center justify-between flex-wrap">  */}
 
