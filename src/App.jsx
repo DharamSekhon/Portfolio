@@ -15,6 +15,7 @@ import { SiExpress } from "react-icons/si";
 import { FaLink } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { Fullscreen } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 // import "./app.css";
 
