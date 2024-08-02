@@ -27,7 +27,7 @@ const Header = () => {
           Contact me
         </a>
         <a
-          href="https://drive.google.com/file/d/1Eq3GbJl7NOwA5qwSD07rtV2uGUfWkHiG/view?usp=sharing"
+          href="https://drive.google.com/file/d/19JD-hfiyw9aaS64B-XQZiATtf2rJfzon/view"
           download
           target="blank2"
           className="m-2 hover:text-green-500"
